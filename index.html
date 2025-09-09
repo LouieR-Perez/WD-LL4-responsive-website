@@ -4,13 +4,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>LiveLab 4 Demo</title>
+  <title>BrewByte</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+<div class="boost-box">
+  <!-- Headline for the campaign -->
+  <h1>BrewByte’s Treat Yourself!</h1>
+  <!-- Short description of the campaign -->
+  <p>Take a break and treat yourself to something special. Click the button below to reveal your surprise reward!</p>
+  <!-- Boost button -->
+  <button class="boost-button">Boost!</button>
+  <!-- Section for the surprise reward (CSS-only hover reveal) -->
+  <div id="surprise-reward" class="revealed">
+    <div class="reward-grid">
+      <div class="reward-box">
+        <span class="reward-hidden">?</span>
+        <span class="reward-message">🎉 Free Coffee Upgrade!</span>
+      </div>
+      <div class="reward-box">
+        <span class="reward-hidden">?</span>
+        <span class="reward-message">🍪 Free Cookie with Your Order!</span>
+      </div>
+      <div class="reward-box">
+        <span class="reward-hidden">?</span>
+        <span class="reward-message">🎁 10% Off Your Next Visit!</span>
+      </div>
+      <div class="reward-box">
+        <span class="reward-hidden">?</span>
+        <span class="reward-message">☕ 2-for-1 Espresso Shot!</span>
+      </div>
+      <div class="reward-box">
+        <span class="reward-hidden">?</span>
+        <span class="reward-message">🥐 Enjoy a Fresh Pastry on Us!</span>
+      </div>
+    </div>
+    <div style="font-size:1rem; color:#8d5c2c; margin-top:12px;">Hover over a box to reveal your surprise!</div>
+  </div>
+</div>
 </body>
 
 </html>
